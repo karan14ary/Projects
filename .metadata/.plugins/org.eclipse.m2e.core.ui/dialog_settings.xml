@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Karan Ray Tharu\Projects\SpringProject8"/>
+			<item value="C:\Users\Karan Ray Tharu\Projects\OTMORMTO"/>
+			<item value="C:\Users\Karan Ray Tharu\Projects\OTMORMTO\src\main\java\com\hibernate\project5\OTMORMTO\Customer.java"/>
+			<item value="C:\Users\Karan Ray Tharu\Projects\OneToOneUnidirectional"/>
+			<item value="C:\Users\Karan Ray Tharu\Projects\OneToOneUnidirectional\src\main\java\com\hibernate\project3\OneToOneUnidirectional\App.java"/>
+			<item value="C:\Users\Karan Ray Tharu\Projects\Hibernateproject2\src\main\java\com\hibernate\project2\Hibernateproject2\App.java"/>
+			<item value="C:\Users\Karan Ray Tharu\Projects\HibernateProject1\src\main\java\com\hibernate\project1\HibernateProject1\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.spring.ListSetMapDataMember.SpringProject9"/>
+			<item value="com.spring.autowiringusingAnnotationAndQualifiers.SpringProject8"/>
+			<item value="com.spring.autowiringusingAnnotation.SpringProject7"/>
+			<item value="com.spring.autowiringconstructor.SpringProject6"/>
+			<item value="com.spring.autowiringbyType.SpringProject5"/>
+			<item value="com.spring.autowiringbyName.SpringProject4"/>
+			<item value="com.spring.wiring.SpringProject3"/>
+			<item value="com.spring.setterandconstructorinjection.SpringProject2"/>
+			<item value="com.spring.createbean.SpringProject1"/>
+			<item value="com.hibernate.project7.CRUDOperation"/>
+			<item value="com.hibernate.project6.MTM"/>
+			<item value="com.hibernate.project5.OTMORMTO"/>
+			<item value="com.hibernate.project4.OneToOneBiDirectional"/>
+			<item value="com.hibernate.project3.OneToOneUnidirectional"/>
+			<item value="com.hibernate.project2.Hibernateproject2"/>
+		</list>
+		<list key="groupId">
+			<item value="com.spring.ListSetMapDataMember"/>
+			<item value="com.spring.autowiringusingAnnotationAndQualifiers"/>
+			<item value="com.spring.autowiringusingAnnotation"/>
+			<item value="com.spring.autowiringconstructor"/>
+			<item value="com.spring.autowiringbyType"/>
+			<item value="com.spring.autowiringbyName"/>
+			<item value="com.spring.wiring"/>
+			<item value="com.spring.setterandconstructorinjection"/>
+			<item value="com.spring.createbean"/>
+			<item value="com.hibernate.project7"/>
+			<item value="com.hibernate.project6"/>
+			<item value="com.hibernate.project5"/>
+			<item value="com.hibernate.project4"/>
+			<item value="com.hibernate.project3"/>
+			<item value="com.hibernate.project2"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringProject9"/>
+			<item value="SpringProject8"/>
+			<item value="SpringProject7"/>
+			<item value="SpringProject6"/>
+			<item value="SpringProject5"/>
+			<item value="SpringProject4"/>
+			<item value="SpringProject3"/>
+			<item value="SpringProject2"/>
+			<item value="SpringProject1"/>
+			<item value="CRUDOperation"/>
+			<item value="MTM"/>
+			<item value="OTMORMTO"/>
+			<item value="OneToOneBiDirectional"/>
+			<item value="OneToOneUnidirectional"/>
+			<item value="Hibernateproject2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Karan Ray Tharu\Downloads\SpringBootProject1"/>
+			<item value="C:\Users\Karan Ray Tharu\Downloads\SpringBootProject1\SpringBootProject1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean
+		class=" com.spring.wiring.SpringProject3.Trainer"
+		id="trainer">
+		<property name="t_id" value="1"></property>
+		<property name="name" value="Aman"></property>
+		<property name="age" value="25"></property>
+		
+		</bean>
+		<bean
+		class=" com.spring.wiring.SpringProject3.Trainer"
+		id="trainer1">
+		<property name="t_id" value="2"></property>
+		<property name="name" value="Anmol"></property>
+		<property name="age" value="29"></property>
+		
+		</bean>
+		<bean
+		class=" com.spring.wiring.SpringProject3.Kodnest"
+		id="kod">
+		<constructor-arg ref="trainer"></constructor-arg>
+		
+		
+		
+		</bean>
+</beans>

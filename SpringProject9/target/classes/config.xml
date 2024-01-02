@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean
+		class="com.spring.ListSetMapDataMember.SpringProject9.Employee"
+		id="emp">
+		<property name="technologies">
+			<list>
+				<value>Java</value>
+				<value>Python</value>
+				<value>SQL</value>
+			</list>
+		</property>
+		<property name="projects">
+			<set>
+				<value>Project-1</value>
+				<value>Project-2</value>
+				<value>Project-3</value>
+			</set>
+		</property>
+		<property name="company">
+			<map>
+				<entry key="1" value="XYZ"></entry>
+				<entry key="2" value="ABC"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>

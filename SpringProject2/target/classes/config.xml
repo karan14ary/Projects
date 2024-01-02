@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean
+		class=" com.spring.setterandconstructorinjection.SpringProject2.Laptop"
+		id="lap1">
+		<property name="slNo" value="1"></property>
+		<property name="brand" value="Dell"></property>
+		<property name="price" value="95000"></property>
+		
+		</bean>
+		<bean
+		class=" com.spring.setterandconstructorinjection.SpringProject2.Laptop"
+		id="lap2">
+		<constructor-arg value="2"></constructor-arg>
+		<constructor-arg value="Apple"></constructor-arg>
+		<constructor-arg value="200000"></constructor-arg>
+		
+		
+		</bean>
+</beans>

@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.spring.autowiringbyName.SpringProject4.Car"
+		id="car" autowire="byName">
+	</bean>
+	<bean class="com.spring.autowiringbyName.SpringProject4.Driver"
+		id="dr">
+		<property name="id" value="1"></property>
+		<property name="name" value="Ankit"></property>
+		<property name="age" value="22"></property>
+	</bean>
+	<bean class="com.spring.autowiringbyName.SpringProject4.Driver"
+		id="d1">
+		<property name="id" value="2"></property>
+		<property name="name" value="Ajay"></property>
+		<property name="age" value="25"></property>
+	</bean>
+	<bean class="com.spring.autowiringbyName.SpringProject4.Driver"
+		id="d2">
+		<property name="id" value="3"></property>
+		<property name="name" value="Arun"></property>
+		<property name="age" value="27"></property>
+	</bean>
+	<bean
+		class="com.spring.autowiringbyName.SpringProject4.University" id="uni"
+		autowire="byName">
+	</bean>
+	<bean class="com.spring.autowiringbyName.SpringProject4.Professor"
+		id="pr">
+		<property name="p_id" value="11"></property>
+		<property name="name" value="Praveen"></property>
+		<property name="subject" value="Math"></property>
+	</bean>
+	<bean class="com.spring.autowiringbyName.SpringProject4.Professor"
+		id="p2">
+		<property name="p_id" value="22"></property>
+		<property name="name" value="Pratik"></property>
+		<property name="subject" value="Science"></property>
+	</bean>
+</beans>
